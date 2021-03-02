@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    background-color: #a1cae2;
+    height: 70px;
+}
+.header>h2{
+    margin-left: 20px;
+  
+}
+.header__links{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.header__links>p{
+    font-size: 22px;
+    margin-top: 5px;
+}
+.header__links>p:hover{
+    color: tomato;
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+a:hover{
+    color: tomato !important;
+}

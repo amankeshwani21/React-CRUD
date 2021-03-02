@@ -1,0 +1,38 @@
+.update {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 400px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 10px 8px #888888;
+}
+.update > img {
+  width: 200px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 40px;
+}
+.update__form {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.update__form > input {
+  width: 400px;
+  height: 45px;
+  margin-top: 10px;
+  padding-left: 7px;
+  font-size: 20px;
+}
+.update__form > button {
+  margin-top: 10px;
+  height: 45px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}

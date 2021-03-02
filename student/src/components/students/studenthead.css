@@ -1,0 +1,27 @@
+.shead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    background-color: #a1cae2;
+    height: 70px;
+}
+.sheader__links{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.sheader__links>p{
+    font-size: 22px;
+    margin-top: 5px;
+}
+.sheader__links>p:hover{
+    color: tomato;
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+a:hover{
+    color: tomato !important;
+}

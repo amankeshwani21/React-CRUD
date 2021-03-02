@@ -1,0 +1,39 @@
+.delete {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 350px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 10px 8px #888888;
+}
+.delete > img {
+  width: 200px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.delete__form {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.delete__form > input {
+  width: 400px;
+  height: 45px;
+  margin-top: 10px;
+  padding-left: 7px;
+  font-size: 20px;
+}
+.delete__form > button {
+  margin-top: 20px;
+  height: 45px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}

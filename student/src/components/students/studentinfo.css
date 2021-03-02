@@ -1,0 +1,13 @@
+.profile{
+    height: 300px;  
+    margin-top: 20px;
+    box-shadow: 5px 10px 8px #888888;
+    z-index:-1;
+    width: 400px;
+    }
+    .profile>h1{
+        text-align: left;
+    }
+    .pf>h2{
+        margin-top:20px
+    }
